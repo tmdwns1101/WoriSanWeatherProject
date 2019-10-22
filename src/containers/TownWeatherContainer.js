@@ -3,7 +3,7 @@ import * as townWeatherActions from "../modules/townWeather/townWeather"
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import TownWeather from "../components/TownWeather"
-
+import LoadingProgress from "../components/LoadingProgress";
 import styled from "styled-components";
 
 const LoadingContainer = styled.div`
@@ -26,7 +26,7 @@ class TownWeatherContainer extends Component {
   render() {
 	const {loading, data, error} = this.props;
 	 
-	if(loading) return (<LoadingContainer>Loading...</LoadingContainer>)
+	if(loading) return (<LoadingContainer><LoadingProgress /></LoadingContainer>)
     if(error) return (<div>{error}</div>)
 	if(!data) return null;
 	return (<TownWeather  data={data} />)

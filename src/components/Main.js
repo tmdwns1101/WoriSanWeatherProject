@@ -102,7 +102,7 @@ const TitleBox = styled.div`
 			
 			
 			animation: ${normalAni} 0.5s linear forwards;
-			animation-delay: 0.5s;
+			animation-delay: 0.25s;
 		}
 	}
 
@@ -112,7 +112,7 @@ const TitleBox = styled.div`
 			color: #37b24d;
 			
 			animation: ${specialAni} 1s linear forwards;
-			animation-delay: 1s;
+			animation-delay: 0.75s;
 		}
 	}
 	&:nth-child(5){
@@ -120,7 +120,7 @@ const TitleBox = styled.div`
 		${TitleContent} {
 			color: #37b24d;
 			animation: ${specialAni} 1s linear forwards;
-			animation-delay: 2s;
+			animation-delay: 1.5s;
 		}
 	}
 	&:nth-child(6){
@@ -128,7 +128,7 @@ const TitleBox = styled.div`
 		${TitleContent} {
 			color: #37b24d;
 			animation: ${specialAni} 1s linear forwards;
-			animation-delay: 3s;
+			animation-delay: 2.25s;
 		}
 	}
 	&:nth-child(9){
@@ -137,7 +137,7 @@ const TitleBox = styled.div`
 			
 			
 			animation: ${normalAni} 0.5s linear forwards;
-			animation-delay: 4s;
+			animation-delay: 2.75s;
 		}
 	}
 	&:nth-child(11){
@@ -146,7 +146,7 @@ const TitleBox = styled.div`
 			
 			
 			animation: ${normalAni} 0.5s linear forwards;
-			animation-delay: 4.5s;
+			animation-delay: 3s;
 		}
 	}
 	&:nth-child(12){
@@ -155,7 +155,7 @@ const TitleBox = styled.div`
 			
 			transform: translate(-25%,80%);
 			animation: ${uniqueAni} 1s linear forwards;
-			animation-delay: 5s;
+			animation-delay: 3.5s;
 		}
 	}
 `
